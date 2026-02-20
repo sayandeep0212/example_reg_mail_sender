@@ -13,7 +13,7 @@ st.set_page_config(page_title="GameLiminals Email Manager", page_icon="🎮", la
 # --- SOCIAL LINKS (Hardcoded) ---
 SOCIAL_LINKS = {
     "GitHub": "https://github.com/gameliminals",
-    "Discord": "https://discord.com/invite/5hZsZmcC",
+    "Discord": "https://discord.gg/7szdDMp4Hv",
     "Instagram": "https://www.instagram.com/gameliminals?igsh=b2V3NzRidDd3OHF6",
     "LinkedIn": "https://www.linkedin.com/company/gameliminals/",
     "Youtube": "https://www.youtube.com/@GameLiminals",
@@ -167,3 +167,4 @@ if uploaded_file and sender_password and whatsapp_link:
 
 elif not uploaded_file:
     st.info("👈 Please upload the JSON file to begin.")
+
